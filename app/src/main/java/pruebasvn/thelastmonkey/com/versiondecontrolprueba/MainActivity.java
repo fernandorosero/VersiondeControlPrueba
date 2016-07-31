@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnSaludos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Toast.makeText(getApplicationContext(),"Saludos desde el click de la app",Toast.LENGTH_SHORT).show();
+               Toast.makeText(getApplicationContext(),"Lenovo i5",Toast.LENGTH_SHORT).show();
                Toast.makeText(MainActivity.this, "Mejor otro boton", Toast.LENGTH_SHORT).show();
             }
         });
