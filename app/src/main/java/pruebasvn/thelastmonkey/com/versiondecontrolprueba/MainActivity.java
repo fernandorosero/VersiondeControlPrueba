@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnSaludos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Lenovo i5 segundo",Toast.LENGTH_SHORT).show();
+               Toast.makeText(getApplicationContext(),"Lenovo i5 segundo",Toast.LENGTH_SHORT).show();
                Toast.makeText(MainActivity.this, "Toshiba i5 segund", Toast.LENGTH_SHORT).show();
             }
         });
