@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                Toast.makeText(getApplicationContext(),"Saludos desde el click de la app",Toast.LENGTH_SHORT).show();
-               Toast.makeText(MainActivity.this, "Saludines", Toast.LENGTH_SHORT).show();
+               Toast.makeText(MainActivity.this, "Mejor otro boton", Toast.LENGTH_SHORT).show();
             }
         });
 
